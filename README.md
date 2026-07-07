@@ -26,7 +26,7 @@ GET /jobs/:id → returns current status
 - **`database/sql`** — raw SQL for precise control over the claim query
 - **`net/smtp`** — email delivery via Gmail SMTP
 - **`context.Context`** — graceful shutdown and worker cancellation
-- **Docker** — Postgres via Docker
+
 
 ## Project Structure
 
@@ -37,7 +37,7 @@ job-worker/
 ├── db.go        — Postgres connection, job queries
 ├── email.go     — SMTP email sending, payload parsing
 ├── models.go    — shared structs
-└── Dockerfile
+
 ```
 
 ## API Endpoints
